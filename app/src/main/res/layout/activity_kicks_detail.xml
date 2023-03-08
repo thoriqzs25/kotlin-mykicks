@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KicksDetailActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+
+        android:background="@drawable/card_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:src="@drawable/jordan_black"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_share"
+            android:layout_gravity="bottom|right"
+            android:background="@null"
+            android:layout_margin="12dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/kick_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:text="Harga"
+                android:layout_marginEnd="32dp"
+                />
+            <TextView
+                android:text=":"
+                android:layout_marginEnd="8dp"
+                />
+            <TextView android:layout_width="fill_parent" android:text="Rp 2.000.000" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:text="Tanggal Beli"
+                android:layout_marginEnd="32dp"
+                />
+            <TextView
+                android:text=":"
+                android:layout_marginEnd="8dp"
+                />
+            <TextView  android:layout_width="fill_parent" android:text="12 Januari 2021" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Harga"
+                android:layout_marginEnd="32dp"
+                />
+            <TextView
+                android:text=":"
+                android:layout_marginEnd="8dp"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:text="Sepatu Air Jordan Black adalah pilihan sempurna untuk mereka yang mencari gaya yang minimalis dan elegan. Warna hitam yang klasik dan simpel membuat sepatu ini mudah dipadukan dengan berbagai pakaian, sehingga cocok untuk berbagai acara formal maupun casual. Selain itu, kualitas material yang digunakan pada Air Jordan Black juga terkenal tangguh dan awet, sehingga sepatu ini bisa menjadi investasi jangka panjang yang menguntungkan bagi penggunanya." />
+        </TableRow>
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
