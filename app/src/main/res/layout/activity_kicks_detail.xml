@@ -21,10 +21,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:id="@+id/iv_kick_img"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="center"
-            android:src="@drawable/jordan_black"
             android:background="@null"/>
 
         <ImageButton
@@ -37,11 +37,11 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_kick_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/kick_name"
+        tools:text="@string/kick_name"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,42 +56,56 @@
         android:layout_marginEnd="72dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/tv_kick_name">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp">
             <TextView
-                android:text="Harga"
+                android:text="@string/harga"
                 android:layout_marginEnd="32dp"
                 />
             <TextView
                 android:text=":"
                 android:layout_marginEnd="8dp"
                 />
-            <TextView android:layout_width="fill_parent" android:text="Rp 2.000.000" />
+            <TextView android:id="@+id/tv_harga" android:layout_width="fill_parent" tools:text="Rp 2.000.000" />
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp">
             <TextView
-                android:text="Tanggal Beli"
+                android:text="@string/warna"
                 android:layout_marginEnd="32dp"
                 />
             <TextView
                 android:text=":"
                 android:layout_marginEnd="8dp"
                 />
-            <TextView  android:layout_width="fill_parent" android:text="12 Januari 2021" />
+            <TextView android:id="@+id/tv_warna" android:layout_width="fill_parent" tools:text="Biru" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:text="@string/tanggal_beli"
+                android:layout_marginEnd="32dp"
+                />
+            <TextView
+                android:text=":"
+                android:layout_marginEnd="8dp"
+                />
+            <TextView android:id="@+id/tv_tanggal_beli" android:layout_width="fill_parent" tools:text="12 Januari 2021" />
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
             <TextView
-                android:text="Harga"
+                android:text="@string/deskripsi"
                 android:layout_marginEnd="32dp"
                 />
             <TextView
@@ -99,8 +113,9 @@
                 android:layout_marginEnd="8dp"
                 />
             <TextView
+                android:id="@+id/tv_deskripsi"
                 android:layout_width="150dp"
-                android:text="Sepatu Air Jordan Black adalah pilihan sempurna untuk mereka yang mencari gaya yang minimalis dan elegan. Warna hitam yang klasik dan simpel membuat sepatu ini mudah dipadukan dengan berbagai pakaian, sehingga cocok untuk berbagai acara formal maupun casual. Selain itu, kualitas material yang digunakan pada Air Jordan Black juga terkenal tangguh dan awet, sehingga sepatu ini bisa menjadi investasi jangka panjang yang menguntungkan bagi penggunanya." />
+                tools:text="Sepatu Air Jordan Black adalah pilihan sempurna untuk mereka yang mencari gaya yang minimalis dan elegan. Warna hitam yang klasik dan simpel membuat sepatu ini mudah dipadukan dengan berbagai pakaian, sehingga cocok untuk berbagai acara formal maupun casual. Selain itu, kualitas material yang digunakan pada Air Jordan Black juga terkenal tangguh dan awet, sehingga sepatu ini bisa menjadi investasi jangka panjang yang menguntungkan bagi penggunanya." />
         </TableRow>
     </TableLayout>
 

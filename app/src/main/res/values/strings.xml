@@ -4,6 +4,10 @@
     <string name="email">thariqzs@yahoo.com</string>
     <string name="joined_since">12 Januari 2021</string>
     <string name="kick_name">Air Jordan Black</string>
+    <string name="harga">Harga</string>
+    <string name="warna">Warna</string>
+    <string name="tanggal_beli">Tanggal Beli</string>
+    <string name="deskripsi">Deskripsi</string>
 
     <string-array name="data_name">
         <item>Air Jordan 1</item>
