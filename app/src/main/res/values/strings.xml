@@ -4,4 +4,90 @@
     <string name="email">thariqzs@yahoo.com</string>
     <string name="joined_since">12 Januari 2021</string>
     <string name="kick_name">Air Jordan Black</string>
+
+    <string-array name="data_name">
+        <item>Air Jordan 1</item>
+        <item>Air Jordan 2</item>
+        <item>Air Jordan 3</item>
+        <item>Air Jordan 4</item>
+        <item>Air Jordan 5</item>
+        <item>Air Jordan 6</item>
+        <item>Air Jordan 7</item>
+        <item>Air Jordan 8</item>
+        <item>Air Jordan 9</item>
+        <item>Air Jordan 10</item>
+        <item>Air Jordan 11</item>
+        <item>Air Jordan 12</item>
+    </string-array>
+    <string-array name="data_color">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Sky</item>
+        <item>Space</item>
+        <item>Toy Story</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="data_date">
+        <item>12 Januari 2010</item>
+        <item>09 Mei 2011</item>
+        <item>15 Oktober 2012</item>
+        <item>10 Februari 2013</item>
+        <item>23 Maret 2014</item>
+        <item>27 Maret 2015</item>
+        <item>09 Desember 2016</item>
+        <item>08 Agustus 2017</item>
+        <item>22 Juli 2018</item>
+        <item>08 Mei 2019</item>
+        <item>17 Maret 2020</item>
+        <item>05 Februari 2021</item>
+        <item>01 Januari 2022</item>
+    </string-array>
+    <string-array name="data_price">
+        <item>Rp 1.200.000</item>
+        <item>Rp 4.300.000</item>
+        <item>Rp 3.299.000</item>
+        <item>Rp 1.700.000</item>
+        <item>Rp 2.499.000</item>
+        <item>Rp 5.000.000</item>
+        <item>Rp 1.299.000</item>
+        <item>Rp 1.700.000</item>
+        <item>Rp 999.000</item>
+        <item>Rp 4.999.000</item>
+        <item>Rp 3.659.000</item>
+        <item>Rp 2.000.000</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>@drawable/jordan_black</item>
+        <item>@drawable/jordan_blue</item>
+        <item>@drawable/jordan_brown</item>
+        <item>@drawable/jordan_green</item>
+        <item>@drawable/jordan_grey</item>
+        <item>@drawable/jordan_pink</item>
+        <item>@drawable/jordan_purple</item>
+        <item>@drawable/jordan_red</item>
+        <item>@drawable/jordan_sky</item>
+        <item>@drawable/jordan_space</item>
+        <item>@drawable/jordan_toy_story</item>
+        <item>@drawable/jordan_white</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+        <item>Hey ini aku beli dan seneng bangett!</item>
+    </string-array>
 </resources>
