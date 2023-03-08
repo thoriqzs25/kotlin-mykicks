@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        binding.icProfile.setOnClickListener {
+            val intent = Intent(this@MainActivity, ProfileActivity::class.java)
+            startActivity(intent)
+        }
+
         rvPurchasedSk = binding.rvSkList
         rvPurchasedSk.setHasFixedSize(true)
 
